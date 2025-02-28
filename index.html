@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>intro to css</title>
+    <style>
+      .alert-text {
+        color: red;
+      }
+      div {
+        color: olive;
+      }
+      #title {
+        background-color: orange;
+      }
+      .subsection {
+        color: red;
+      }
+      .subsection#preview {
+        color: purple;
+      }
+      .ancestor .contents {
+        color: greenyellow;
+      }
+      p {
+        background-color: #00ff0080;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css</h1>
+
+    <div>hello, world</div>
+    <div>hello, again</div>
+    <p>hi fucking retards</p>
+    <div>okay bye</div>
+    <div class="alert-text">please agree to our term of service</div>
+    <div id="title">my fuckup life</div>
+    <div>
+      <div class="subsection header">latest posts</div>
+      <p class="subsection preview" id="preview">
+        this is were preview for a posts might go
+      </p>
+    </div>
+    <div class="ancestor">
+      ma ano ulam
+      <!-- class a -->
+      <div class="contents">
+        ma ano ulam
+        <!-- class b -->
+        <div class="contents">
+          ma ano ulam
+          <!-- class c -->
+        </div>
+      </div>
+    </div>
+    <div class="contents">wawiw</div>
+    <!-- class d -->
+  </body>
+</html>
